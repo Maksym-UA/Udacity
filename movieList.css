@@ -1,0 +1,133 @@
+body {
+    padding-top: 100px;
+    background-image: url('Tape1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+	
+#trailer .modal-dialog {
+    margin-top: 200px;
+    width: 640px;
+    height: 480px;
+}
+	
+.hanging-close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 9001;
+}
+
+#trailer-video {
+    width: 100%;
+    height: 100%;
+}
+
+.movie-tile{
+	margin-bottom: 20px;
+	padding-top: 20px;
+	background: rgba(255, 255, 255, 0.001);
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.2s ease;
+}
+
+.movie-tile:hover {
+    cursor: pointer;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.2) inset;
+	background: rgba(255, 255, 255, 0.9)			
+}
+		
+.scale-media {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.scale-media iframe {
+    border: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+a.goUpButton{
+	display: none;
+	width:60px;
+	height: 60px;
+	position:fixed;
+	margin:auto;
+	background:  #ffbb99;
+	background-image: url('arrow-up.png');
+	background-size: 60px;
+	right: 4%;
+	bottom: 90px;
+	z-index:10;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+a:hover.goUpButton {
+	background:   #ff9966;
+	background-image: url('arrow-up.png');
+	background-size: 60px;
+	box-shadow: 0 6px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.25);
+}
+
+/*---------------------Side panel------------------------------*/
+
+.genreMenu {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: -250px;
+	background-color: rgba(17, 17, 17, 0.9);
+	overflow-x: hidden;
+	padding-top: 60px;
+	padding-left: 0px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+	
+.topnav{ margin-top: 45px; 
+	list-style-type: none;
+}
+
+.topnav a {
+	padding: 5px 5px 5px 32px;
+	text-decoration: none;
+	font-size: 1.8em;
+	color: #e6e6e6;
+	display: block;
+	transition: 0.5s
+}
+
+
+.topnav a:hover, .offcanvas a:focus{
+	color: #FF9900;
+}
+
+.topnav li .closebtn {
+	position: absolute;
+	top: 45px;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+	
+.toggle img{width: 36px;}
+		
+.toggle {
+	position: fixed;
+	display: block;
+	margin-bottom: -56px;
+	left: 5%;
+	z-index:3;
+}
