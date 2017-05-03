@@ -15,7 +15,7 @@ SETUP
 
  2. Modify fresh_tomatoes.py appropriately; you may wish to change
     the page layout. Separate movieList.css file is also available
-for web page style change.
+    for web page style change.
 
  3. Modify entertainment_web.py if you want to add / delete movie from the list.
 
@@ -26,7 +26,7 @@ for web page style change.
  6. To run the code open Python IDLE, open entertainment_web.py and run the script.
  
     Note that created fresh_tomatoes.html file will be open in your default web browser and
-be saved in the folder where entertainment_web.py is stored.
+    be saved in the folder where entertainment_web.py is stored.
 
  
 
