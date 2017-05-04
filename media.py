@@ -1,12 +1,19 @@
+"""library that allows to open created html file in a default webbrowser"""
 import webbrowser
 
-class Movie():
 
-    """This class provides a way to store movie related information"""
-    
+class Movie():
+    """
+
+    This class provides a way to store movie related information like
+    title, year, genre, image and trailer.
+
+    """
+
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
-    
-    def __init__(self, movie_title, movie_year, movie_genre, movie_storyline, poster_image, trailer_youtube):
+
+    def __init__(self, movie_title, movie_year, movie_genre, movie_storyline,
+                 poster_image, trailer_youtube):
         self.title = movie_title
         self.year = movie_year
         self.genre = movie_genre
@@ -19,5 +26,3 @@ class Movie():
 
     def show_poster(self):
         webbrowser.open(self.poster_image)
-        
-    
