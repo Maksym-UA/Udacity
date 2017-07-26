@@ -47,6 +47,6 @@ You can lern more by visiting https://www.w3schools.com/
 CONTACT
 =======
 
-Please send you feedback to
+Please send your feedback to
 
   max.savin3@gmail.com
