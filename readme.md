@@ -1,4 +1,4 @@
-MOVIE LIST WEB PAGE VIA FRESHTOMATOES
+## MOVIE LIST WEB PAGE VIA FRESHTOMATOES
 =================================
 
 This package implements an example of movie list web page
@@ -6,8 +6,8 @@ with classification. You can get the files (and learn more about it) at
 
   https://github.com/Maksym-UA/Udacity
 
-SETUP
-=====
+### SETUP
+
 
  1. Install Python, version 2.7 or later.
 
@@ -26,8 +26,7 @@ SETUP
     Note that created fresh_tomatoes.html file will be open in your default web browser and
     be saved in the folder where entertainment_web.py is stored.
 
-ABOUT THE CODE
-==============
+### ABOUT THE CODE
 
 The example code was partially provided by the Udacity mentors in
 rducational purpose. It uses techniques, methods and object constructors
@@ -44,8 +43,7 @@ Animation of the page is performed via JS / jQuery code also stored in separate 
 
 You can lern more by visiting https://www.w3schools.com/ 
 
-CONTACT
-=======
+### CONTACT
 
 Please send your feedback to
 
