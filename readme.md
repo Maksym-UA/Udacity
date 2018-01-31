@@ -1,5 +1,4 @@
 ## MOVIE LIST WEB PAGE VIA FRESHTOMATOES
-=================================
 
 This package implements an example of movie list web page
 with classification. You can get the files (and learn more about it) at
