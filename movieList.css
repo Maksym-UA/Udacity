@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+	position: relative;
 }
 
 	
@@ -12,6 +13,7 @@ body {
     width: 640px;
     height: 480px;
 }
+
 	
 .hanging-close {
     position: absolute;
@@ -20,30 +22,51 @@ body {
     z-index: 9001;
 }
 
+
 #trailer-video {
     width: 100%;
     height: 100%;
 }
 
-.movie-tile{
-	margin-bottom: 20px;
-	padding-top: 20px;
+
+.movie-tile {	
+	padding: 20px 5px 0px 5px;
+	height: 525px;
 	background: rgba(255, 255, 255, 0.001);
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
-	transition: all 0.2s ease;
+	transition: all 0.2s ease;	
 }
 
+
 .movie-tile:hover {
+	
     cursor: pointer;
 	box-shadow:0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.2) inset;
-	background: rgba(255, 255, 255, 0.9)			
+	background: rgba(255, 255, 255, 0.9);
+	position: relative;
+	z-index:9;	
 }
+
+
+.movieStoryline {
+	display:none;
+	text-align: left;	
+}
+
+
+.movie-tile:hover .movieStoryline {
+   display:block;
+   margin: 0px 17px 0px 17px;
+   position:absolute;	
+}
+	
 		
 .scale-media {
     padding-bottom: 56.25%;
     position: relative;
 }
+
 
 .scale-media iframe {
     border: none;
@@ -55,7 +78,8 @@ body {
     background-color: white;
 }
 
-a.goUpButton{
+
+a.goUpButton {
 	display: none;
 	width:60px;
 	height: 60px;
@@ -70,6 +94,7 @@ a.goUpButton{
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 }
+
 
 a:hover.goUpButton {
 	background:   #ff9966;
@@ -95,10 +120,12 @@ a:hover.goUpButton {
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
+
 	
-.topnav{ margin-top: 45px; 
+.topnav { margin-top: 45px; 
 	list-style-type: none;
 }
+
 
 .topnav a {
 	padding: 5px 5px 5px 32px;
@@ -106,13 +133,14 @@ a:hover.goUpButton {
 	font-size: 1.8em;
 	color: #e6e6e6;
 	display: block;
-	transition: 0.5s
+	transition: 0.5s;
 }
 
 
-.topnav a:hover, .offcanvas a:focus{
+.topnav a:hover, .offcanvas a:focus {
 	color: #FF9900;
 }
+
 
 .topnav li .closebtn {
 	position: absolute;
@@ -121,13 +149,37 @@ a:hover.goUpButton {
 	font-size: 36px;
 	margin-left: 50px;
 }
+
 	
-.toggle img{width: 36px;}
+.toggle img {
+	width: 36px;
+	transition: 0.3s ease;
+}
+
 		
 .toggle {
 	position: fixed;
 	display: block;
 	margin-bottom: -56px;
-	left: 5%;
+	left: 4%;
 	z-index:3;
+	padding: 5px;
+	background-color:#dfbf9f;
+}
+
+
+.toggle img:hover {
+	transform: scale(1.2);
+}
+
+
+#home_button img {
+	width: 25px;
+	display:block;
+	transition: 0.3s ease;
+}
+
+
+#home_button img:hover {
+   transform: scale(1.5);
 }
